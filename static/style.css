@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+    background: #000000;
+    color:rgb(0, 255, 238);
+    padding: 20px;
+}
+h1{
+    color:black
+}
+
+textarea {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #a5eb77;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5b8241;
+    color: white;
+}
